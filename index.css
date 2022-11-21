@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "Ubuntu Mono";
+  src: url("./UbuntuMono-Regular.ttf") format("truetype");
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+body {
+  overflow: hidden;
+  font-family: Ubuntu Mono, monospace;
+  font-size: 11pt;
+}
+
+canvas {
+  display: block;
+}
+
+textarea {
+  height: 200px;
+  width: 400px;
+  font-family: Ubuntu Mono, monospace;
+  font-size: 11pt;
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+  white-space: pre;
+  word-wrap: normal;
+}
+
+#monitor {
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+}
+
+#github {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 40px;
+  background: white;
+  border-radius: 50px;
+  border: 2px solid white;
+  height: 41px;
+  filter: opacity(0.6);
+}
